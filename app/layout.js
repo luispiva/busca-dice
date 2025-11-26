@@ -1,12 +1,14 @@
 export const metadata = {
-  title: "Busca Palavra",
-  description: "Busca palavra pelo número do dadoware",
+  title: "Busca Diceware",
+  description: "Busca palavra pelo número",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
-      <body>{children}</body>
+    <html lang="pt-BR">
+      <body style={{ fontFamily: "sans-serif", padding: 20 }}>
+        {children}
+      </body>
     </html>
   );
 }
